@@ -246,6 +246,37 @@ p {
 #testimonials .testimonial p {
 }
 
+/* Contact */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  /* outline: thick double #32a1ce; */
+  /* outline: 1px ridge rgba(170, 50, 220, 0.6); */
+  /* border-radius: 2rem; */
+  /* border: 2px solid #f7c08a; */
+  border-color: #f7c08a;
+}
+
 /* Footer */
 
 #main-footer {
